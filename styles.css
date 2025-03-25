@@ -95,7 +95,7 @@ body{
 
 .title:hover{
     color: var(--yellow);
-    cursor: pointer
+    cursor: pointer;
 }
 
 footer{
