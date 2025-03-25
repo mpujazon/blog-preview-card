@@ -1,0 +1,53 @@
+/* Font import */
+@font-face {
+    font-family: 'Figtree';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+}
+
+/* Color variables */
+:root{
+    --yellow: #F4D04E;
+    --gray-950: #111111;
+    --gray-500: #6B6B6B;
+    --white: #FFFFFF;
+}
+
+/* Spacing variables */
+:root{
+    --spacing-50: 4px;
+    --spacing-100: 8px;
+    --spacing-150: 12px;
+    --spacing-300: 24px;
+}
+
+/* Text presets */
+.text1{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text2{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray-500)
+}
+
+.text3{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text3-bold{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* General styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
