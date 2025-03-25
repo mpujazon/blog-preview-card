@@ -105,6 +105,7 @@ footer{
     border-radius: 10px;
     font-size: small;
     text-align: center;
+    display: none;
 }
 
 footer a{
@@ -113,6 +114,8 @@ footer a{
 }
 
 .card-img{
+    max-height: 197px;
+    object-fit: cover;
     border-radius: 10px;
     width: 100%;
     box-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.5);
